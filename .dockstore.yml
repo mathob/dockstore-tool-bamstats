@@ -1,7 +1,7 @@
 version: 1.2
 workflows:
   - name bamstats
-  - subclass: NFL
+    subclass: NFL
     primaryDescriptorPath: /main.nf
     testParameterFiles:
       - /test.nf.json
