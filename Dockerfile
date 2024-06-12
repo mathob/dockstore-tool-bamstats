@@ -5,8 +5,9 @@
 # set the base image to a version of Ubuntu with LTS
 FROM ubuntu:22.04
 
-# File Author / Maintainer
-MAINTAINER Brian OConnor <briandoconnor@gmail.com>
+# two different ways of declaring authorship
+LABEL maintainer="m.hobbs@garvan.org.au"
+#LABEL org.opencontainers.image.authors="Brian O'Connor <briandoconnor@gmail.com>, Ash O'Farrell <aofarrel@ucsc.edu>"
 
 # setup packages
 # software-properties-common: needed to add openjdk repository
