@@ -1,0 +1,9 @@
+version: 1.2
+workflows:
+  - subclass: NFL
+    primaryDescriptorPath: /main.nf
+    testParameterFiles:
+      - /test-nf.json
+    authors:
+      - orcid: 0000-0002-6879-1369
+    topic: test use of dockstore with toy bamstats workflow
